@@ -1,0 +1,71 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Sense APP</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://js.api.here.com/v3/3.1/mapsjs-ui.css" />
+</head>
+<body>
+
+    <h1 style="text-align: center;">Grid Sense Predictions</h1>
+    <form id="coordinateForm">
+        <label for="latitude">Latitude:</label>
+        <input type="text" id="latitude" name="latitude" required>
+        <label for="longitude">Longitude:</label>
+        <input type="text" id="longitude" name="longitude" required>
+        <button type="button" id="submitButton">Show on Map</button>
+    </form>
+    <div id="stationInfo" class="station-info">
+    <h2>Station Information</h2>
+    <div id="stationDetails">
+        <p><strong>Station Name:</strong> <span id="stationName"></span></p>
+        <p><strong>Predicted Energy (kWh):</strong> <span id="predictedEnergy"></span></p>
+        <p><strong>Distance (km):</strong> <span id="distancekm"></span></p>
+        <p><strong>Traffic Duration (s):</strong> <span id="trafficDuration"></span></p>
+    </div>
+    </div>
+    <div id="mapContainer"></div>
+
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-core.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-service.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-ui.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-mapevents.js" type="text/javascript" charset="utf-8"></script>
+    <script src="script.js"></script>
+
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charging Stations Map</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://js.api.here.com/v3/3.1/mapsjs-ui.css" />
+</head>
+<body>
+
+    <h1 style="text-align: center;">Grid Sense Charing Stations Prediction</h1>
+    
+    <form id="coordinateForm" style="text-align: center;">
+        <label for="latitude">Latitude:</label>
+        <input type="text" id="latitude" name="latitude" required>
+        <label for="longitude">Longitude:</label>
+        <input type="text" id="longitude" name="longitude" required>
+        <button type="button" id="submitButton">Show Stations</button>
+    </form>
+
+    <div id="mapContainer" style="width: 100%; height: 500px;"></div>
+    <div id="stationContainer"></div>
+
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-core.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-service.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-ui.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-mapevents.js" type="text/javascript" charset="utf-8"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

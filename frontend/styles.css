@@ -1,0 +1,109 @@
+/*#mapContainer {
+    width: 100%;
+    height: 500px;
+}
+
+form {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin: 5px 0;
+}
+
+input {
+    margin: 5px 0;
+    padding: 8px;
+    width: 200px;
+}
+
+button {
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.station-info {
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.station-info h2 {
+    text-align: center;
+    color: #333;
+}
+
+.station-info p {
+    font-size: 16px;
+    margin: 5px 0;
+}*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+form {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin: 5px 0;
+}
+
+input {
+    margin: 5px 0;
+    padding: 8px;
+    width: 200px;
+}
+
+button {
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#stationContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin: 20px;
+}
+
+.station-tile {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    width: 200px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    background-color: #f9f9f9;
+}
+
+.station-tile:hover {
+    transform: scale(1.05);
+}
+
+.station-tile h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.station-tile p {
+    margin: 5px 0;
+}
